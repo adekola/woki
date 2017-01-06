@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Woki - Local Discovery</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css"> 
@@ -153,10 +153,25 @@
         Woki
       </h1>
       <h2>Local discovery will never be the same</h2> <br>
-      <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>
     </div>
 
+<div class="ui container">
+    <div class="ui vertical small form">
+        <div class="two fields">
+            <div class="field">
+                <input placeholder="Do" type="text">
+            </div>
+            <span> in </span> 
+            <div class="field">
+                <input placeholder="Where" type="text">
+            </div>
+            <div class="ui small primary button"><i class="right arrow icon"></i></div>
+        </div>
+    </div>
   </div>
+  </div>
+
+  
 </div>
 
 
