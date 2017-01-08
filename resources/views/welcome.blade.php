@@ -165,7 +165,7 @@
               <div class="field">
                   <input placeholder="Where" type="text">
               </div>
-              <div class="ui small primary button"><i class="right arrow icon"></i></div>
+              <div class="ui small primary button" data-content="Discover"><i class="right arrow icon"></i></div>
           </div>
       </div>
   </div>
@@ -188,11 +188,11 @@
         <td>Groceries</td>
         <td>Yes</td>
       </tr>
-      <tr>
-        <td>Burger King</td>
-        <td>Hamburgers</td>
-        <td>Yes</td>
-      </tr>
+        <tr data-content="Eat Burgers at Burger King">
+          <td>Burger King</td>
+          <td>Hamburgers</td>
+          <td>Yes</td>
+        </tr>
     </tbody>
     <tfoot>
       <tr><th colspan="3">
