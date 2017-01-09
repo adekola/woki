@@ -15,8 +15,8 @@ class CreateShopLocationsTable extends Migration
     {
         Schema::create('shop_locations', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('shop_id');
-            $table->string('district_id');
+            $table->foreign('shop_id')->references('id')->on('shops')->onDelete('cascade'); 
+            $table->foreign('district_id')->references('id')->on('districts')->onDelete('cascade');    
             $table->string('street_address');
             $table->string('location_coordinates');
             $table->timestamps();
