@@ -15,4 +15,9 @@ class City extends Model
     {
         return $this->hasMany('App\District');
     }
+
+    public function shops()
+    {
+        return $this->hasManyThrough('App\Shop', 'App\District');
+    }
 }
