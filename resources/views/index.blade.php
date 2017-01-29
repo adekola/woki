@@ -66,5 +66,82 @@
         </form>
       </div>
 
+      <br>
+
+      <div class="row">
+        <h4>Existing Shops</h4>
+        <table class="table table-hover table-striped table-bordered">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Shop Name</th>
+              <th>Do</th>
+              <th>What</th>
+              <th>District</th>
+              <th>City</th>
+              <th>Country</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Shop Name</td>
+              <td>Do</td>
+              <td>What</td>
+              <td>District</td>
+              <td>City</td>
+              <td>Country</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Shop Name</td>
+              <td>Do</td>
+              <td>What</td>
+              <td>District</td>
+              <td>City</td>
+              <td>Country</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Shop Name</td>
+              <td>Do</td>
+              <td>What</td>
+              <td>District</td>
+              <td>City</td>
+              <td>Country</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Shop Name</td>
+              <td>Do</td>
+              <td>What</td>
+              <td>District</td>
+              <td>City</td>
+              <td>Country</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Shop Name</td>
+              <td>Do</td>
+              <td>What</td>
+              <td>District</td>
+              <td>City</td>
+              <td>Country</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Shop Name</td>
+              <td>Do</td>
+              <td>What</td>
+              <td>District</td>
+              <td>City</td>
+              <td>Country</td>
+            </tr>
+          </tbody>
+          <tfoot>
+
+          </tfoot>
+        </table>
+      </div>
     </div>
   @endsection
